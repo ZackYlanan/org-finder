@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigation Bar Full Screen*/
+
+li, a {
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 80px;
+  background-image: 
+    linear-gradient(to right, 
+      rgba(255, 255, 255, 0.7) 0%,     
+      rgba(218, 165, 31, 0.8) 40%,     
+      rgba(152, 42, 18, 0.8) 70%,    
+      rgba(88, 10, 8, 0.8) 100% 
+           ),     
+      url('images/navbar_image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-left:16px;
+  cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 40px; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.nav_links li {
+    padding: 0 20px;
+}
+
+.nav_links li a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.nav_links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px; 
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #4F0607, #B50E10);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nav_links li a:hover::after {
+  transform: scaleX(1); 
+}
+
+.nav_links li a:hover {
+  color: black; 
+}
+
+/* Responsive: stack layout for smaller screens */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .logo {
+    margin-bottom: 12px;
+    margin-left:-16px;
+    cursor: pointer;
+    
+  }
+
+  .nav_links {
+    position: static;
+    transform: none;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav_links li {
+    padding: 10px;
+  }
+}
