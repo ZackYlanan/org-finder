@@ -19,6 +19,58 @@
                 </ul>
             </nav>
         </header>
-        <script src=""></script>
+        <main class="container">
+  <!-- Title and Instructions -->
+  <section class="intro">
+    <h1 class="main-title">PUP Student Organizations</h1>
+    <p class="subtitle">
+      Search and explore organizations by classification, department, or name.
+    </p>
+  </section>
+
+  <!-- Search, Sort, and Filters -->
+  <section class="controls">
+    <input type="text" id="search-input" placeholder="Search organization..." class="search-input" />
+
+    <select id="sort-select" class="sort-dropdown">
+      <option value="default">Sort by</option>
+      <option value="name-asc">Name (A-Z)</option>
+      <option value="name-desc">Name (Z-A)</option>
+      <option value="classification">Classification</option>
+    </select>
+
+    <div class="filter-group">
+      <h3>Classification</h3>
+      <div id="classification-filters" class="filter-buttons"></div>
+    </div>
+
+    <div class="filter-group">
+      <h3>Department</h3>
+      <div id="department-filters" class="filter-buttons"></div>
+    </div>
+
+    <button id="clear-filters" class="clear-btn">Clear All</button>
+  </section>
+
+  <!-- Table -->
+  <section class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Control No.</th>
+          <th>Organization Name</th>
+          <th>Classification</th>
+          <th>Department</th>
+          <th>Branch</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody id="organizations-table-body">
+        <!-- JavaScript will populate -->
+      </tbody>
+    </table>
+  </section>
+</main>
+        <script src="script.js"></script>
     </body>
 </html>

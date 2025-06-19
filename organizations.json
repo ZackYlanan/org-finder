@@ -1,0 +1,252 @@
+[
+  {
+    "controlNumber": "2122-PMC-003",
+    "name": "PUP-ELITE",
+    "classification": "Academic",
+    "department": "CS",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-001",
+    "name": "Junior Philippine Institute of Accountants (JPIA)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Maria",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-002",
+    "name": "Alliance of Computer Engineering Students (ACES)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Maria",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-003",
+    "name": "PUP Epistemic League of Interactive future Teachers of English (PUP-ELITE)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-004",
+    "name": "Integrated Students in Information Technology Education (ISITE)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Maria",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-005",
+    "name": "Association of Future Teachers (AFT)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Maria",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-006",
+    "name": "Bachelor of Elementary and Secondary Teaching Society (BEST SOCIETY)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-007",
+    "name": "Science Instructors of Education, Nature, Technology, and Innovation Alliance (SCIENTIA)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-008",
+    "name": "Hospitality Management Society (HMS)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Maria",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-009",
+    "name": "Junior Marketing Association of the Philippines (JMAP)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Rosa",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-010",
+    "name": "Mathematics: Road To Excellence (MATH:RIIX)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-011",
+    "name": "Philippine Institute of Industrial Engineers (PIIE)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Rosa",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-012",
+    "name": "PUP Peer Facilitators Association",
+    "classification": "Academic/U-Wide",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-013",
+    "name": "PUP Hygears",
+    "classification": "Special Interest/U-Wide",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-014",
+    "name": "Political Science Society",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-015",
+    "name": "Chamber of Entrepreneurs and Managers",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Maria",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-016",
+    "name": "Junior Executives of Human Resource Association",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Rosa",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-017",
+    "name": "MOVE TO THE GROOVE",
+    "classification": "Cultural/Arts/Dance",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-018",
+    "name": "Junior Political Economists’ Guild",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-019",
+    "name": "PUP Association of Students for Computer Intelligence Integration",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-020",
+    "name": "Future Business Teachers’ Organization",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-021",
+    "name": "FOR ADULTS ONLY DANCE CREW",
+    "classification": "Cultural/Arts/Dance/U-Wide",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-022",
+    "name": "Junior Marketing Society",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Quezon City",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-023",
+    "name": "Eligible League of Information Technology Enthusiasts (ELITE)",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Sta. Rosa",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-024",
+    "name": "Future Business Teachers’ Organization",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Quezon City",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-025",
+    "name": "Public Administrators Society",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Lopez",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-026",
+    "name": "PUP Radio Engineering Circle – Maragondon Section",
+    "classification": "Special Interest",
+    "department": "Unknown",
+    "branch": "Maragondon",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-BNC-027",
+    "name": "Kapatiran ng Talino at Galing (KATAGA)",
+    "classification": "Scholars",
+    "department": "Unknown",
+    "branch": "Quezon City",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-028",
+    "name": "JUNIOR MARKETING EXECUTIVES",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-029",
+    "name": "American Concrete Institute Philippines – Polytechnic University of the Philippines Student Chapter (ACIP-PUPSC)",
+    "classification": "Special Interest",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  },
+  {
+    "controlNumber": "2122-PMC-030",
+    "name": "Electrical Engineering - Wired",
+    "classification": "Academic",
+    "department": "Unknown",
+    "branch": "Main",
+    "type": "Revalidation"
+  }
+
+  
+]

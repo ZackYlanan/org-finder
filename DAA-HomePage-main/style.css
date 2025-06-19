@@ -120,3 +120,77 @@ header {
     padding: 10px;
   }
 }
+
+/* dagdag */
+
+.container {
+  padding: 40px;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.sort-dropdown {
+  padding: 8px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.filter-group {
+  margin-top: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.filter-btn {
+  padding: 6px 12px;
+  background-color: #b50e10;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #4f0607;
+}
+
+.clear-btn {
+  margin-top: 20px;
+  padding: 8px 14px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f5f5f5;
+}
