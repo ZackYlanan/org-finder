@@ -17,4 +17,6 @@ npm install
 5. Run the server
 go to server.js
 bash
- node server.js
+node server.js
+
+6. Copy the http://localhost:3000/
