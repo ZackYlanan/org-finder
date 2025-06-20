@@ -40,8 +40,8 @@ function renderTable(orgs, sortKey = null, sortOrder = 'asc') {
   const tbody = document.getElementById('organizations-table-body');
   tbody.innerHTML = '';
 
-  if (sortKey) { // reverses the order if z-a is picked in the dropdown
-    orgs = quickSort(orgs, sortKey);
+  if (sortKey) {
+    orgs = quicksort(orgs, sortKey);
     if (sortOrder === 'desc') orgs.reverse();
   }
 
@@ -133,38 +133,41 @@ async function applyFilters() {
   renderTable(orgs, sortKey, sortOrder);
 }*/
 
-//try with console.log
-async function applyFilters() {
-
-  const classification = document.querySelector('.filter-btn.classification.active')?.dataset.value || ''; // Gets the currently selected classification filter 
-  const department = document.querySelector('.filter-btn.department.active')?.dataset.value || ''; // Gets the selected department filter
-  const search = document.getElementById('search-input').value.trim(); // Gets the text from the search input box.
-  const sort = document.getElementById('sort-select').value; // Gets the selected value from the sort dropdown
-
-  const allOrgs = await fetchOrganizations(); //This fetches the entire organization list from organizations.json
-
-  // Org checking
-  // Only orgs that pass all three checks will be kept in the filtered array
-  let filtered = allOrgs.filter(org => {
+//LINEAR SEARCH ALGORITHM
+function linearSearchFilter(orgs, search, classification, department) {
+  // This function performs a linear search to filter organizations
+  return orgs.filter(org => {
     const matchesSearch = org.name.toLowerCase().includes(search.toLowerCase());
     const matchesClassification = !classification || org.classification === classification;
     const matchesDepartment = !department || org.department === department;
     return matchesSearch && matchesClassification && matchesDepartment;
   });
+}
+
+
+//try with console.log
+async function applyFilters() {
+  const classification = document.querySelector('.filter-btn.classification.active')?.dataset.value || '';
+  const department = document.querySelector('.filter-btn.department.active')?.dataset.value || '';
+  const search = document.getElementById('search-input').value.trim();
+  const sort = document.getElementById('sort-select').value;
+
+  const allOrgs = await fetchOrganizations();
+
+  // LINEAR SEARCH: Filtering
+  const filtered = linearSearchFilter(allOrgs, search, classification, department);
 
   const sortBy = sort.includes('name') ? 'name' : sort;
   const sortOrder = sort.endsWith('-desc') ? 'desc' : 'asc';
 
-  console.log("Before sorting:", JSON.parse(JSON.stringify(filtered))); // Deep clone for clean output
-
-  // The quicksort() function is called to manually sort filtered based on the sortBy key.
-
-  const sortedOrgs = quicksort(filtered, sortBy);
-
-  if (sortOrder === 'desc') sortedOrgs.reverse();
+  let sortedOrgs = filtered;
+  if (sortBy !== 'default') {
+    sortedOrgs = quicksort(filtered, sortBy);
+    if (sortOrder === 'desc') sortedOrgs.reverse();
+  }
 
   console.log("After sorting:", sortedOrgs);
 
-  renderTable(sortedOrgs); // This renders the existing table rows with the filtered and sorted organizations.
+  // Only pass the array, not sortKey/sortOrder, since it's already sorted
+  renderTable(sortedOrgs);
 }
-
